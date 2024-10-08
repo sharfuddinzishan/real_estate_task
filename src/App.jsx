@@ -1,15 +1,16 @@
 import "./App.css";
+import About from "./components/About";
+import Feature from "./components/Feature";
+import Header from "./components/Header";
+import Property from "./components/Property";
 
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      <div>
-        <h1>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-          deleniti magnam incidunt.
-        </h1>
-      </div>
+      <Header></Header>
+      <Feature></Feature>
+      <Property></Property>
+      <About></About>
     </>
   );
 }
