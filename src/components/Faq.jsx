@@ -1,4 +1,4 @@
-import faqData from "../faqData";
+import realEstateData from "../realEstateData";
 import FaqSingleCard from "./FaqSingleCard";
 import { FaqSvg2, FaqSvg3 } from "./ui/Svg";
 
@@ -27,13 +27,13 @@ export default function faq() {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 lg:w-1/2">
               {/* For First Two FAQ */}
-              {faqData.slice(0, 2).map((faq) => (
+              {realEstateData.faqData.slice(0, 2).map((faq) => (
                 <FaqSingleCard key={faq.id} faq={faq}></FaqSingleCard>
               ))}
             </div>
             <div className="w-full px-4 lg:w-1/2">
               {/* For Last Two FAQ */}
-              {faqData.slice(2, 4).map((faq) => (
+              {realEstateData.faqData.slice(2, 4).map((faq) => (
                 <FaqSingleCard key={faq.id} faq={faq}></FaqSingleCard>
               ))}
             </div>

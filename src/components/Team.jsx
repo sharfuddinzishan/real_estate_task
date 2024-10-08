@@ -1,4 +1,4 @@
-import teamsData from "../teamsData";
+import realEstateData from "../realEstateData";
 import TeamSingleCard from "./TeamSingleCard";
 
 export default function Team() {
@@ -28,7 +28,7 @@ export default function Team() {
           </div>
           <div className="-mx-4 flex flex-wrap justify-center">
             {/* Load Teams Information */}
-            {teamsData.map((team) => (
+            {realEstateData.teamsData.map((team) => (
               <TeamSingleCard key={team.id} team={team}></TeamSingleCard>
             ))}
           </div>

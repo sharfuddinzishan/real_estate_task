@@ -43,10 +43,10 @@ export default function Contact() {
                         How Can We Help?
                       </h5>
                       <p className="text-base text-body-color dark:text-dark-6">
-                        info@yourdomain.com
+                        info@estatebd.com
                       </p>
                       <p className="mt-1 text-base text-body-color dark:text-dark-6">
-                        contact@yourdomain.com
+                        contact@estatebd.com
                       </p>
                     </div>
                   </div>

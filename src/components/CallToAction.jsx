@@ -22,7 +22,7 @@ export default function CallToAction() {
                     experience and transform your journey!
                   </p>
                   <a
-                    href="javascript:void(0)"
+                    href="#"
                     className="inline-block rounded-md border border-transparent bg-secondary px-7 py-3 text-base font-medium text-white transition hover:bg-[#0BB489]"
                   >
                     Let&apos;s have a meeting

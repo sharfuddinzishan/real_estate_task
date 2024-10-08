@@ -1,4 +1,4 @@
-import blogData from "../blogData";
+import realEstateData from "../realEstateData";
 import FooterSingleBlog from "./FooterSingleBlog";
 
 export default function FooterBlogs() {
@@ -9,7 +9,7 @@ export default function FooterBlogs() {
           <h4 className="mb-9 text-lg font-semibold text-white">Latest blog</h4>
           <div className="flex flex-col gap-8">
             {/* Show last two blogs */}
-            {blogData.slice(-2).map((blog) => {
+            {realEstateData.blogData.slice(-2).map((blog) => {
               return (
                 <>
                   <FooterSingleBlog

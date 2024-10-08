@@ -9,10 +9,7 @@ export default function Footer() {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-3/12">
               <div className="mb-10 w-full">
-                <a
-                  href="javascript:void(0)"
-                  className="mb-6 inline-block max-h-[100px]"
-                >
+                <a href="#" className="mb-6 inline-block max-h-[100px]">
                   <img
                     src="assets/images/logo/logo.svg"
                     alt="logo"
@@ -37,7 +34,7 @@ export default function Footer() {
                 <ul>
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                     >
                       Home
@@ -45,7 +42,7 @@ export default function Footer() {
                   </li>
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                     >
                       Features
@@ -53,7 +50,7 @@ export default function Footer() {
                   </li>
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                     >
                       About
@@ -70,7 +67,7 @@ export default function Footer() {
                 <ul>
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                     >
                       How it works
@@ -78,7 +75,7 @@ export default function Footer() {
                   </li>
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                     >
                       Privacy policy
@@ -86,7 +83,7 @@ export default function Footer() {
                   </li>
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                     >
                       Terms of Service
@@ -94,7 +91,7 @@ export default function Footer() {
                   </li>
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                     >
                       Refund policy

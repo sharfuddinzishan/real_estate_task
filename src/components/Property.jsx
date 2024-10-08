@@ -1,4 +1,4 @@
-import propertiesData from "../propertiesData";
+import realEstateData from "../realEstateData";
 import PropertySingleCard from "./PropertySingleCard";
 
 export default function Property() {
@@ -22,7 +22,7 @@ export default function Property() {
 
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
             {/* Load Properties Data */}
-            {propertiesData.map((property) => (
+            {realEstateData.propertiesData.map((property) => (
               <PropertySingleCard
                 key={property.id}
                 property={property}

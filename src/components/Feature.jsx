@@ -1,4 +1,4 @@
-import featuresData from "../featuresData";
+import realEstateData from "../realEstateData";
 import FeatureSingleCard from "./FeatureSingleCard";
 
 export default function Feature() {
@@ -25,7 +25,7 @@ export default function Feature() {
           </div>
           <div className="-mx-4 flex flex-wrap">
             {/* Load Features Data From JS object */}
-            {featuresData.map((feature) => (
+            {realEstateData.featuresData.map((feature) => (
               <FeatureSingleCard
                 key={feature.id}
                 feature={feature}
