@@ -1,6 +1,7 @@
 import TeamSocials from "./TeamSocials";
 import { TeamSvg1 } from "./ui/Svg";
 
+// eslint-disable-next-line react/prop-types
 export default function TeamSingleCard({ team }) {
   const { id, name, jobTitle, image, social } = team || {};
   return (
