@@ -803,6 +803,7 @@ const Svg = {
   PropertySvg2,
   AboutSvg1,
   AboutSvg2,
+  AboutSvg3,
 };
 
 export default Svg;
