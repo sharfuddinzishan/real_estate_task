@@ -3,7 +3,7 @@ import {
   FeatureSvg2,
   FeatureSvg3,
   FeatureSvg4,
-} from "./components/ui/svg";
+} from "./components/ui/Svg";
 
 const featuresData = [
   {
