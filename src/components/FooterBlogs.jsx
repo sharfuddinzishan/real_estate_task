@@ -1,3 +1,5 @@
+import blogData from "../blogData";
+
 export default function FooterBlogs() {
   return (
     <>
@@ -5,21 +7,23 @@ export default function FooterBlogs() {
         <div className="mb-10 w-full">
           <h4 className="mb-9 text-lg font-semibold text-white">Latest blog</h4>
           <div className="flex flex-col gap-8">
-            {[1, 2].map((blog, index) => {
+            {blogData.slice(-2).map((blog) => {
               return (
                 <>
                   <a
-                    href={`blogs/${index}`}
+                    key={blog.id}
+                    href={`blogs/${blog.id}`}
                     className="group flex items-center gap-[22px]"
                   >
                     <div className="overflow-hidden rounded">
                       <img
-                        src="./assets/images/blog/blog-footer-01.jpg"
-                        alt="blog"
+                        src={blog.image}
+                        alt={blog.text || "blog_image"}
+                        className="h-8 w-12"
                       />
                     </div>
                     <span className="max-w-[180px] text-base text-gray-7 group-hover:text-white">
-                      I think really important to design with...
+                      {blog.text.slice(0, 41) + `...`}
                     </span>
                   </a>
                 </>
