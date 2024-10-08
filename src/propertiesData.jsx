@@ -19,7 +19,7 @@ const propertiesData = [
   },
   {
     id: "flat-3",
-    title: "Cozy 2-Bedroom Apartment in Dhanmondi",
+    title: "Cozy 2-Bedroom Apartment",
     monthlyPrice: 35000,
     image:
       "https://i.bikroy-st.com/brand-new-apartment-in-banani-for-rent-dhaka-3/f022622d-f1ff-4914-b12a-a911fe11199b/620/466/fitted.jpg",
@@ -37,7 +37,7 @@ const propertiesData = [
   },
   {
     id: "flat-5",
-    title: "Charming 1-Bedroom Studio in Mohammadpur",
+    title: "Charming 1-Bedroom Studio in Demra",
     monthlyPrice: 20000,
     image:
       "https://i.bikroy-st.com/full-furnish-3-bed-room-apt-rent-in-gulshan-2-north-side-for-rent-dhaka/6f960942-dfac-400f-8d8e-974577b6d9ca/620/466/fitted.jpg",
