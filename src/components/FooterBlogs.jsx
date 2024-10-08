@@ -1,4 +1,5 @@
 import blogData from "../blogData";
+import FooterSingleBlog from "./FooterSingleBlog";
 
 export default function FooterBlogs() {
   return (
@@ -10,22 +11,10 @@ export default function FooterBlogs() {
             {blogData.slice(-2).map((blog) => {
               return (
                 <>
-                  <a
+                  <FooterSingleBlog
                     key={blog.id}
-                    href={`blogs/${blog.id}`}
-                    className="group flex items-center gap-[22px]"
-                  >
-                    <div className="overflow-hidden rounded">
-                      <img
-                        src={blog.image}
-                        alt={blog.text || "blog_image"}
-                        className="h-8 w-12"
-                      />
-                    </div>
-                    <span className="max-w-[180px] text-base text-gray-7 group-hover:text-white">
-                      {blog.text.slice(0, 41) + `...`}
-                    </span>
-                  </a>
+                    blog={blog}
+                  ></FooterSingleBlog>
                 </>
               );
             })}
