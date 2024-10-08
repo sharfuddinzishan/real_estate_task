@@ -1,4 +1,4 @@
-import teamsData from "../TeamsData";
+import teamsData from "../teamsData";
 import TeamSingleCard from "./TeamSingleCard";
 
 export default function Team() {
