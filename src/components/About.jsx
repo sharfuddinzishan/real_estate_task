@@ -1,5 +1,3 @@
-import { AboutSvg1, AboutSvg2, AboutSvg3 } from "./ui/svg";
-
 export default function About() {
   return (
     <>
@@ -71,7 +69,7 @@ export default function About() {
                         </span>
                       </div>
                       <div>
-                        <span className="absolute left-0 top-0 -z-10">
+                        {/* <span className="absolute left-0 top-0 -z-10">
                           <AboutSvg1></AboutSvg1>
                         </span>
                         <span className="absolute right-0 top-0 -z-10">
@@ -79,7 +77,7 @@ export default function About() {
                         </span>
                         <span className="absolute bottom-0 right-0 -z-10">
                           <AboutSvg3></AboutSvg3>
-                        </span>
+                        </span> */}
                       </div>
                     </div>
                   </div>
