@@ -62,6 +62,7 @@ export default function Navbar() {
                 >
                   Sign In
                 </a>
+                {/* Reusable Component */}
                 <BlueLink
                   title="Sign Up"
                   href="signup.html"

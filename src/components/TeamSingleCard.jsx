@@ -27,6 +27,7 @@ export default function TeamSingleCard({ team }) {
               {jobTitle}
             </p>
             <div className="flex items-center justify-center gap-5">
+              {/* Load Members Social link */}
               <TeamSocials key={id} social={social}></TeamSocials>
             </div>
           </div>

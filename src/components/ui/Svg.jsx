@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+/*****************Header Section*********************/
 export const HeaderSvg = () => (
   <svg
     width="134"
@@ -570,6 +571,7 @@ export const HeaderSvg = () => (
   </svg>
 );
 
+/*****************Feature Section*********************/
 export const FeatureSvg1 = () => (
   <svg
     width="37"
@@ -674,6 +676,7 @@ export const FeatureSvg4 = () => (
   </svg>
 );
 
+/*****************Properties Section*********************/
 export const PropertySvg1 = () => (
   <svg
     className="mr-3 h-6 w-6 fill-current text-gray-600"
@@ -794,6 +797,8 @@ export const AboutSvg3 = () => (
   </svg>
 );
 
+/*****************CTA (Call To Action) Section*********************/
+
 export const CallToSvg1 = () => (
   <svg
     width="495"
@@ -859,6 +864,7 @@ export const CallToSvg2 = () => (
   </svg>
 );
 
+/*****************FAQ Section*********************/
 export const FaqSvg1 = () => (
   <svg width="32" height="32" viewBox="0 0 34 34" className="fill-current">
     <path d="M17.0008 0.690674C7.96953 0.690674 0.691406 7.9688 0.691406 17C0.691406 26.0313 7.96953 33.3625 17.0008 33.3625C26.032 33.3625 33.3633 26.0313 33.3633 17C33.3633 7.9688 26.032 0.690674 17.0008 0.690674ZM17.0008 31.5032C9.03203 31.5032 2.55078 24.9688 2.55078 17C2.55078 9.0313 9.03203 2.55005 17.0008 2.55005C24.9695 2.55005 31.5039 9.0313 31.5039 17C31.5039 24.9688 24.9695 31.5032 17.0008 31.5032Z" />
@@ -1449,6 +1455,7 @@ export const FaqSvg3 = () => (
   </svg>
 );
 
+/*****************Team Section*********************/
 export const TeamSvg1 = () => (
   <svg
     width="55"
@@ -1670,6 +1677,7 @@ export const TeamSvg1 = () => (
   </svg>
 );
 
+/*****************Social Icon Related SVG*********************/
 export const SvgFb = ({ width, height }) => (
   <svg
     width={width}
@@ -1739,7 +1747,8 @@ export const SvgIn = ({ width, height }) => (
   </svg>
 );
 
-export const ContactSvgLoc = () => (
+/*****************Contact Us Section*********************/
+export const ContactSvgLocation = () => (
   <svg width="29" height="35" viewBox="0 0 29 35" className="fill-current">
     <path d="M14.5 0.710938C6.89844 0.710938 0.664062 6.72656 0.664062 14.0547C0.664062 19.9062 9.03125 29.5859 12.6406 33.5234C13.1328 34.0703 13.7891 34.3437 14.5 34.3437C15.2109 34.3437 15.8672 34.0703 16.3594 33.5234C19.9688 29.6406 28.3359 19.9062 28.3359 14.0547C28.3359 6.67188 22.1016 0.710938 14.5 0.710938ZM14.9375 32.2109C14.6641 32.4844 14.2812 32.4844 14.0625 32.2109C11.3828 29.3125 2.57812 19.3594 2.57812 14.0547C2.57812 7.71094 7.9375 2.625 14.5 2.625C21.0625 2.625 26.4219 7.76562 26.4219 14.0547C26.4219 19.3594 17.6172 29.2578 14.9375 32.2109Z" />
     <path d="M14.5 8.58594C11.2734 8.58594 8.59375 11.2109 8.59375 14.4922C8.59375 17.7188 11.2187 20.3984 14.5 20.3984C17.7812 20.3984 20.4062 17.7734 20.4062 14.4922C20.4062 11.2109 17.7266 8.58594 14.5 8.58594ZM14.5 18.4297C12.3125 18.4297 10.5078 16.625 10.5078 14.4375C10.5078 12.25 12.3125 10.4453 14.5 10.4453C16.6875 10.4453 18.4922 12.25 18.4922 14.4375C18.4922 16.625 16.6875 18.4297 14.5 18.4297Z" />
@@ -1753,28 +1762,28 @@ export const ContactSvgMail = () => (
 );
 
 const Svg = {
-  HeaderSvg,
-  FeatureSvg1,
-  FeatureSvg2,
-  FeatureSvg3,
-  FeatureSvg4,
-  PropertySvg1,
-  PropertySvg2,
   AboutSvg1,
   AboutSvg2,
   AboutSvg3,
   CallToSvg1,
   CallToSvg2,
+  ContactSvgLocation,
+  ContactSvgMail,
   FaqSvg1,
   FaqSvg2,
   FaqSvg3,
-  TeamSvg1,
+  FeatureSvg1,
+  FeatureSvg2,
+  FeatureSvg3,
+  FeatureSvg4,
+  HeaderSvg,
+  PropertySvg1,
+  PropertySvg2,
   SvgFb,
-  SvgX,
-  SvgIns,
   SvgIn,
-  ContactSvgLoc,
-  ContactSvgMail,
+  SvgIns,
+  SvgX,
+  TeamSvg1,
 };
 
 export default Svg;

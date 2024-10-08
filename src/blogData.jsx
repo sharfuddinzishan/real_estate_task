@@ -1,3 +1,4 @@
+// Blog Data For Footer Section
 const blogData = [
   {
     id: "blog-1",

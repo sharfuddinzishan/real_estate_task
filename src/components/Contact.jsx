@@ -1,5 +1,5 @@
 import ContactForm from "./ContactForm";
-import { ContactSvgLoc, ContactSvgMail } from "./ui/Svg";
+import { ContactSvgLocation, ContactSvgMail } from "./ui/Svg";
 
 export default function Contact() {
   return (
@@ -23,7 +23,7 @@ export default function Contact() {
                 <div className="mb-12 flex flex-wrap justify-between lg:mb-0">
                   <div className="mb-8 flex w-[330px] max-w-full">
                     <div className="mr-6 text-[32px] text-primary">
-                      <ContactSvgLoc></ContactSvgLoc>
+                      <ContactSvgLocation></ContactSvgLocation>
                     </div>
                     <div>
                       <h5 className="mb-[18px] text-lg font-semibold text-dark dark:text-white">

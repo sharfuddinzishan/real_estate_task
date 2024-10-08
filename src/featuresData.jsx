@@ -1,3 +1,4 @@
+// Data For Features Section
 import {
   FeatureSvg1,
   FeatureSvg2,

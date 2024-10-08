@@ -1,3 +1,4 @@
+// Data for FAQ Sections
 const faqData = [
   {
     id: "faq-1",

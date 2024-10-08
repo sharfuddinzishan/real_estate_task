@@ -21,6 +21,7 @@ export default function Property() {
           </div>
 
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {/* Load Properties Data */}
             {propertiesData.map((property) => (
               <PropertySingleCard
                 key={property.id}

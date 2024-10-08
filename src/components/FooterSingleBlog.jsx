@@ -8,6 +8,7 @@ export default function FooterSingleBlog({ blog }) {
           <img src={image} alt={text || "blog_image"} className="h-8 w-12" />
         </div>
         <span className="max-w-[180px] text-base text-gray-7 group-hover:text-white">
+          {/* Show 40 characters */}
           {text.slice(0, 41) + `...`}
         </span>
       </a>

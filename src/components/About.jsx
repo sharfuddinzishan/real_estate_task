@@ -17,15 +17,15 @@ export default function About() {
                     Innovative Tools for Real Estate Excellence
                   </h2>
                   <p className="mb-10 text-base leading-relaxed text-body-color dark:text-dark-6">
-                    The main ‘thrust’ is to focus on educating our clients on
-                    how to best navigate the real estate market with interactive
-                    guides and personalized consultations led by industry
-                    experts.
+                    The main &apos;thrust&apos; is to focus on educating our
+                    clients on how to best navigate the real estate market with
+                    interactive guides and personalized consultations led by
+                    industry experts.
                     <br />
                     <br />
-                    The main ‘thrust’ is to focus on educating attendees on how
-                    to best protect highly vulnerable business applications with
-                    interactive panel.
+                    The main &apos;thrust&apos; is to focus on educating
+                    attendees on how to best protect highly vulnerable business
+                    applications with interactive panel.
                   </p>
 
                   <a
@@ -70,6 +70,7 @@ export default function About() {
                           Years of experience
                         </span>
                       </div>
+                      {/* SVG for Background */}
                       <div>
                         <span className="absolute left-0 top-0 -z-10">
                           <AboutSvg1></AboutSvg1>

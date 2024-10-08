@@ -1,3 +1,4 @@
+// Data For Properties(Grab your Dream Property) Section
 const propertiesData = [
   {
     id: "flat-1",

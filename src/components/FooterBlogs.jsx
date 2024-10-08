@@ -8,6 +8,7 @@ export default function FooterBlogs() {
         <div className="mb-10 w-full">
           <h4 className="mb-9 text-lg font-semibold text-white">Latest blog</h4>
           <div className="flex flex-col gap-8">
+            {/* Show last two blogs */}
             {blogData.slice(-2).map((blog) => {
               return (
                 <>

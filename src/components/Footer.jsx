@@ -24,6 +24,7 @@ export default function Footer() {
                   using technology.
                 </p>
                 <div className="-mx-3 flex items-center">
+                  {/* Component for Social Icons */}
                   <FooterSocials></FooterSocials>
                 </div>
               </div>
@@ -102,7 +103,7 @@ export default function Footer() {
                 </ul>
               </div>
             </div>
-
+            {/* Footer Blogs */}
             <FooterBlogs></FooterBlogs>
           </div>
         </div>

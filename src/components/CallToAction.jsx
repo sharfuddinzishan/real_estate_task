@@ -18,8 +18,8 @@ export default function CallToAction() {
                     </span>
                   </h2>
                   <p className="mx-auto mb-6 max-w-[515px] text-base leading-[1.5] text-white">
-                    Don’t miss out on the opportunity to elevate your experience
-                    and transform your journey!
+                    Don&apos;t miss out on the opportunity to elevate your
+                    experience and transform your journey!
                   </p>
                   <a
                     href="javascript:void(0)"
@@ -33,6 +33,7 @@ export default function CallToAction() {
           </div>
         </div>
         <div>
+          {/* SVG For Background */}
           <span className="absolute left-0 top-0">
             <CallToSvg1></CallToSvg1>
           </span>

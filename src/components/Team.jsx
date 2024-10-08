@@ -27,6 +27,7 @@ export default function Team() {
             </div>
           </div>
           <div className="-mx-4 flex flex-wrap justify-center">
+            {/* Load Teams Information */}
             {teamsData.map((team) => (
               <TeamSingleCard key={team.id} team={team}></TeamSingleCard>
             ))}

@@ -30,6 +30,7 @@ export default function Hero() {
                     </a>
                   </li>
                   <li>
+                    {/* Reusable Component */}
                     <BlueLink
                       title="Contact Us"
                       href="https://github.com/tailgrids/play-tailwind"
