@@ -1,5 +1,5 @@
 import { BlueLink } from "./ui/Buttons";
-import { HeaderSvg } from "./ui/svg";
+import { HeaderSvg } from "./ui/Svg";
 
 export default function Hero() {
   return (

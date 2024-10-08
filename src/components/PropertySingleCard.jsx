@@ -1,4 +1,4 @@
-import { PropertySvg1, PropertySvg2 } from "./ui/svg";
+import { PropertySvg1, PropertySvg2 } from "./ui/Svg";
 
 /* eslint-disable react/prop-types */
 export default function PropertySingleCard({ property }) {
