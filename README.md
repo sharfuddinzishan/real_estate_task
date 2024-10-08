@@ -1,8 +1,8 @@
-# React + Vite
+## Code Link
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[GitHub Repository](https://github.com/Learn-with-Sumit/batch-2-assignment-1-real-estate-sharfuddinzishan)
 
-Currently, two official plugins are available:
+## Live Site Links
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Live Site Link 1](https://real-estate-task-theta.vercel.app/)
+- [Live Site Link 2](https://real-estate-task-theta.netlify.app/)
